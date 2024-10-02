@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #262626;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav a {
+  background-color: #373333;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: #5a5a5a;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url(https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#menu {
+  padding: 50px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+  height: 200px;
+}
+
+.details {
+  padding: 15px;
+}
+
+.details-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.about_row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about_column {
+  flex: 1;
+  padding: 15px;
+}
+
+.about_column img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+#order {
+  padding: 50px;
+  background-color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp_box {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.text_area {
+  height: 100px;
+}
+
+.btn2 {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
